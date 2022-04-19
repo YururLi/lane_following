@@ -3,7 +3,7 @@
 ## 1. Clone the source code
   cd ~/catkin_ws/src
   
-  git clone 
+  git clone https://github.com/YururLi/lane_following.git
   
 ## 2. Catkin make the lane following package
   cd ..
