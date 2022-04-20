@@ -73,7 +73,7 @@ class Follower:
                     cv2.circle(image, (fpt_x, fpt_y), 10, (128,128,128), -1)
 
                     err = w/2 - fpt_x
-                    print('err = %d', err)
+                    # print('err = %d' err)
                     self.twist.linear.x = 0.3
                     self.twist.angular.z = (err*90.0/160)/15
                     self.cmd_vel_pub.publish(self.twist)
